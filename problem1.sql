@@ -1,6 +1,6 @@
 create table song
 (
-    id int primary key,
+    id SERIAL primary key,
     title varchar(20),
     artist varchar(20)
 );
